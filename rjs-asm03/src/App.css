@@ -18,15 +18,13 @@ img {
     object-fit: cover;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+.nav-link.active{
+    color: var(--primary-color);
 }
 
-.img-link:hover {
-    transition: .3s;
-    opacity: .7;
-}
+/* 
+.custom-arrows::-webkit-inner-spin-button,
+.custom-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+} */
